@@ -1,11 +1,11 @@
 {
-  "module_version": "0.6.12",
+  "module_version": "0.6.13",
   "revision": "r1",
   "app_version": "56.34.0",
   "bundle_id": "local.ox8pool.research",
-  "file": "0x-8-pool-0.6.12-r1.ipa",
-  "bytes": 97698826,
-  "sha256": "3a6865a8e6666c73b3e3157f6fed49e293bd786a4d7b67c24a2db4336901e2f9",
+  "file": "0x-8-pool-0.6.13-r1.ipa",
+  "bytes": 97704279,
+  "sha256": "524c51ed785f7c24b30b77169f291ee83cc7845cbfbb1d36e1be92c8fec78743",
   "requires_personal_resigning": true,
   "dynamic_bankroll_selection_included": true,
   "auto_lobby_device_validated": false,
@@ -16,5 +16,10 @@
   "auto_match_collapses_settings": true,
   "native_match_phase_reconciliation": true,
   "unknown_outcomes_excluded_from_win_model": true,
-  "note": "Native winner-state/lobby reconciliation fix, legacy pending recovery with verified wallet, unknown outcomes excluded from win statistics, existing Kelly/time-efficiency selection and popup handling. Enable auto table selection in app settings. Not device validated."
+  "native_fast_roll_test": true,
+  "fast_roll_default": true,
+  "fast_roll_device_validated": false,
+  "calibration_risk_policy": "bounded-loss-budget",
+  "calibration_loss_fraction": 0.2,
+  "note": "Experimental native fast completion after our dispatched shot; native turn confirmation retained. Bounded calibration loss budget and detailed table rejection reasons. Native fast-roll behavior is not device validated. Enable auto table selection in app settings. Not device validated."
 }

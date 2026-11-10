@@ -1,3 +1,13 @@
+# Latest: 0x 8 pool 0.6.13-r1
+
+[Download IPA](0x-8-pool-0.6.13-r1.ipa) — 97,704,279 bytes
+
+SHA-256: `524c51ed785f7c24b30b77169f291ee83cc7845cbfbb1d36e1be92c8fec78743`
+
+Includes experimental native fast-roll completion after our automatic shot (default on; can disable in settings), retained native turn confirmation, shorter stable-board delay, bounded calibration loss budget and detailed rejection reasons. Existing match reconciliation and popup handling remain included. Turn on 自動選桌與開局 in settings; default is off. Excludes All In and variable stakes. This is an offline-tested, not device-validated build. Requires personal re-signing before installation.
+
+---
+
 # Latest: 0x 8 pool 0.6.12-r1
 
 [Download IPA](0x-8-pool-0.6.12-r1.ipa) — 97,698,826 bytes
