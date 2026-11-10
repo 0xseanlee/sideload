@@ -1,3 +1,13 @@
+# Latest: 0x 8 pool 0.6.11-r1
+
+[Download IPA](0x-8-pool-0.6.11-r1.ipa) — 97,695,100 bytes
+
+SHA-256: `4f10ad6ea5a3aa5e7fc734198a78297bf55f6eac53feef401e48df31c07c12be`
+
+Includes Kelly/time-efficiency table selection, corrected minimum-tier risk forecasting, verified lobby-popup closing, transparent service-window handling and settings collapse on auto-match start. Turn on 自動選桌與開局 in settings; default is off. Excludes All In and variable stakes. This is an offline-tested, not device-validated build. Requires personal re-signing before installation.
+
+---
+
 # Latest: 0x 8 pool 0.6.10-r1
 
 [Download IPA](0x-8-pool-0.6.10-r1.ipa) — 97,692,856 bytes

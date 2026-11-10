@@ -1,0 +1,18 @@
+{
+  "module_version": "0.6.11",
+  "revision": "r1",
+  "app_version": "56.34.0",
+  "bundle_id": "local.ox8pool.research",
+  "file": "0x-8-pool-0.6.11-r1.ipa",
+  "bytes": 97695100,
+  "sha256": "4f10ad6ea5a3aa5e7fc734198a78297bf55f6eac53feef401e48df31c07c12be",
+  "requires_personal_resigning": true,
+  "dynamic_bankroll_selection_included": true,
+  "auto_lobby_device_validated": false,
+  "automatic_match_entry_default": false,
+  "foreground_lobby_popup_gate_included": true,
+  "discrete_tier_forecast_fix": true,
+  "visible_uikit_blocker_check": true,
+  "auto_match_collapses_settings": true,
+  "note": "Kelly/time-efficiency selection, discrete minimum-tier risk fix, verified safe-close popup allowlist, visible-only UIKit blockers and automatic settings collapse on start. Enable auto table selection in app settings. Not device validated."
+}
