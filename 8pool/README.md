@@ -1,3 +1,13 @@
+# Latest: 0x 8 pool 0.6.12-r1
+
+[Download IPA](0x-8-pool-0.6.12-r1.ipa) — 97,698,826 bytes
+
+SHA-256: `3a6865a8e6666c73b3e3157f6fed49e293bd786a4d7b67c24a2db4336901e2f9`
+
+Includes corrected native game/winner phase tracking, stable-lobby and wallet reconciliation for legacy pending entries, unknown-outcome isolation, plus existing table selection and popup handling. Turn on 自動選桌與開局 in settings; default is off. Excludes All In and variable stakes. This is an offline-tested, not device-validated build. Requires personal re-signing before installation.
+
+---
+
 # Latest: 0x 8 pool 0.6.11-r1
 
 [Download IPA](0x-8-pool-0.6.11-r1.ipa) — 97,695,100 bytes
