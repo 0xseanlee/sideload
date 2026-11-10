@@ -1,0 +1,12 @@
+{
+  "module_version": "0.6.8",
+  "revision": "r2",
+  "app_version": "56.34.0",
+  "bundle_id": "local.ox8pool.research",
+  "file": "0x-8-pool-0.6.8-r2.ipa",
+  "bytes": 97645058,
+  "sha256": "f439dfad98243c65923ffee98d63582f0abb643a271188788393858ab965885c",
+  "requires_personal_resigning": true,
+  "dynamic_bankroll_selection_included": false,
+  "note": "Latest existing packaged IPA; newly developed bankroll planner is not included."
+}
