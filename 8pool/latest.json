@@ -1,11 +1,11 @@
 {
-  "module_version": "0.6.14",
-  "revision": "r2",
+  "module_version": "0.6.15",
+  "revision": "r1",
   "app_version": "56.34.0",
   "bundle_id": "local.ox8pool.research",
-  "file": "0x-8-pool-0.6.14-r2.ipa",
-  "bytes": 97710573,
-  "sha256": "91e8c8457e962efda83e9602393b80cfae78eea8d4fdb94e577b233e32721eb8",
+  "file": "0x-8-pool-0.6.15-r1.ipa",
+  "bytes": 97713343,
+  "sha256": "829763c3bb9b0272f02a56b1815d8787dcbbf344ff12804328a19d7f46612d9f",
   "requires_personal_resigning": true,
   "dynamic_bankroll_selection_included": true,
   "auto_lobby_device_validated": false,
@@ -24,5 +24,7 @@
   "native_completed_result_return": true,
   "fresh_result_missed_start_recovery": true,
   "result_return_device_validated": false,
-  "note": "Completed-result handling uses the original native Back workflow. Numeric tier binding and fresh-result missed-start recovery included; unbound historical outcomes remain unknown. Existing fast-roll and calibration policy retained. Enable auto table selection in app settings. Not device validated."
+  "native_idle_entry_recovery": true,
+  "request_is_not_match_started": true,
+  "note": "Separates native start dispatch from actual matching/playing. Recovers unresolved requests after verified stable native lobby, empty queues and stable balance; no timeout-only resend. Unknown outcomes excluded from win history; risk reference retained. Original result Back navigation retained. Not device validated."
 }

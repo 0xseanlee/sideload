@@ -1,3 +1,13 @@
+# Latest: 0x 8 pool 0.6.15-r1
+
+[Download IPA](0x-8-pool-0.6.15-r1.ipa) — 97,713,343 bytes
+
+SHA-256: `829763c3bb9b0272f02a56b1815d8787dcbbf344ff12804328a19d7f46612d9f`
+
+Separates start dispatch from actual matching and playing. Recovers unresolved requests after verified native idle lobby, empty native queues and stable balance; no timeout-only resend. Preserves unknown outcomes and risk reference. Original result Back flow, fast-roll, calibration policy and popup handling remain included. Turn on 自動選桌與開局 in settings; default is off. Excludes All In and variable stakes. This is an offline-tested, not device-validated build. Requires personal re-signing before installation.
+
+---
+
 # Latest: 0x 8 pool 0.6.14-r2
 
 [Download IPA](0x-8-pool-0.6.14-r2.ipa) — 97,710,573 bytes
