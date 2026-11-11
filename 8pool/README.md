@@ -1,3 +1,13 @@
+# Latest: 0x 8 pool 0.6.14-r2
+
+[Download IPA](0x-8-pool-0.6.14-r2.ipa) — 97,710,573 bytes
+
+SHA-256: `91e8c8457e962efda83e9602393b80cfae78eea8d4fdb94e577b233e32721eb8`
+
+Fixes completed-result stalls using the original native Back workflow, numeric tier binding and fresh-result missed-start recovery. Unbound historical outcomes remain unknown. Existing fast-roll, calibration loss budget and popup handling remain included. Turn on 自動選桌與開局 in settings; default is off. Excludes All In and variable stakes. This is an offline-tested, not device-validated build. Requires personal re-signing before installation.
+
+---
+
 # Latest: 0x 8 pool 0.6.13-r1
 
 [Download IPA](0x-8-pool-0.6.13-r1.ipa) — 97,704,279 bytes
