@@ -1,11 +1,11 @@
 {
-  "module_version": "0.6.15",
+  "module_version": "0.6.16",
   "revision": "r1",
   "app_version": "56.34.0",
   "bundle_id": "local.ox8pool.research",
-  "file": "0x-8-pool-0.6.15-r1.ipa",
-  "bytes": 97713343,
-  "sha256": "829763c3bb9b0272f02a56b1815d8787dcbbf344ff12804328a19d7f46612d9f",
+  "file": "0x-8-pool-0.6.16-r1.ipa",
+  "bytes": 97714426,
+  "sha256": "4ab5d6e68e6af96de47674e578ffccfca7ab6116183f0554afd6a29319ac6d80",
   "requires_personal_resigning": true,
   "dynamic_bankroll_selection_included": true,
   "auto_lobby_device_validated": false,
@@ -26,5 +26,8 @@
   "result_return_device_validated": false,
   "native_idle_entry_recovery": true,
   "request_is_not_match_started": true,
-  "note": "Separates native start dispatch from actual matching/playing. Recovers unresolved requests after verified stable native lobby, empty queues and stable balance; no timeout-only resend. Unknown outcomes excluded from win history; risk reference retained. Original result Back navigation retained. Not device validated."
+  "bounded_ruleset_promotion": true,
+  "confirmed_outcome_counter": true,
+  "cue_recharge_cost_included": false,
+  "note": "Fixes starvation of uncalibrated higher-rule tiers: established positive lower-bound edge permits bounded sampling of the cheapest higher eligible tier, without borrowing its win rate. Adds confirmed win/loss and unknown result counts. Existing native result/idle recovery retained. Recharge cost is not included in earnings. Not device validated."
 }

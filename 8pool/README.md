@@ -1,3 +1,13 @@
+# Latest: 0x 8 pool 0.6.16-r1
+
+[Download IPA](0x-8-pool-0.6.16-r1.ipa) — 97,714,426 bytes
+
+SHA-256: `4ab5d6e68e6af96de47674e578ffccfca7ab6116183f0554afd6a29319ac6d80`
+
+Fixes ruleset promotion starvation with bounded next-tier calibration after an established positive lower-bound edge. New rules keep neutral estimates, calibration stake/loss limits and explicit unknown risk. Adds confirmed win/loss and unknown counts. Retains result/idle recovery and popup handling. Earnings estimates exclude cue recharge cost. Turn on 自動選桌與開局 in settings; default is off. Excludes All In and variable stakes. This is an offline-tested, not device-validated build. Requires personal re-signing before installation.
+
+---
+
 # Latest: 0x 8 pool 0.6.15-r1
 
 [Download IPA](0x-8-pool-0.6.15-r1.ipa) — 97,713,343 bytes
