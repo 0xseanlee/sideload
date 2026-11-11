@@ -1,3 +1,13 @@
+# Latest: 0x 8 pool 0.6.17-r1
+
+[Download IPA](0x-8-pool-0.6.17-r1.ipa) — 97,720,347 bytes
+
+SHA-256: `fc745ff5ef53a53178308c002c62ac877c170121bc45ab03a350aa818c4969b9`
+
+Adds next-shot precomputation during native result wait after fast completion. Exact board/rule identity is rechecked before reuse; in-flight work continues under the confirmed turn budget. Low-evidence cache entries are re-simulated as hints. No shot dispatch before the native turn gate. Existing bankroll/lobby fixes retained. Network latency is not bypassed; saved time has not been device measured. Turn on 自動選桌與開局 in settings; default is off. Excludes All In and variable stakes. This is an offline-tested, not device-validated build. Requires personal re-signing before installation.
+
+---
+
 # Latest: 0x 8 pool 0.6.16-r1
 
 [Download IPA](0x-8-pool-0.6.16-r1.ipa) — 97,714,426 bytes

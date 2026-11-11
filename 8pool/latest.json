@@ -1,11 +1,11 @@
 {
-  "module_version": "0.6.16",
+  "module_version": "0.6.17",
   "revision": "r1",
   "app_version": "56.34.0",
   "bundle_id": "local.ox8pool.research",
-  "file": "0x-8-pool-0.6.16-r1.ipa",
-  "bytes": 97714426,
-  "sha256": "4ab5d6e68e6af96de47674e578ffccfca7ab6116183f0554afd6a29319ac6d80",
+  "file": "0x-8-pool-0.6.17-r1.ipa",
+  "bytes": 97720347,
+  "sha256": "fc745ff5ef53a53178308c002c62ac877c170121bc45ab03a350aa818c4969b9",
   "requires_personal_resigning": true,
   "dynamic_bankroll_selection_included": true,
   "auto_lobby_device_validated": false,
@@ -29,5 +29,7 @@
   "bounded_ruleset_promotion": true,
   "confirmed_outcome_counter": true,
   "cue_recharge_cost_included": false,
-  "note": "Fixes starvation of uncalibrated higher-rule tiers: established positive lower-bound edge permits bounded sampling of the cheapest higher eligible tier, without borrowing its win rate. Adds confirmed win/loss and unknown result counts. Existing native result/idle recovery retained. Recharge cost is not included in earnings. Not device validated."
+  "sync_wait_precompute": true,
+  "precompute_device_validated": false,
+  "note": "Precomputes the next shot after native fast completion during result wait. Requires identical current board/rules before reuse; an in-flight search continues with the new turn deadline. Low-evidence cached results are hints only. Native turn and first-contact checks retained; no network wait bypass. Not device validated."
 }
